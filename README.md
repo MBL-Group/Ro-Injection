@@ -23,9 +23,16 @@ This project involves the development of a software application using Visual Stu
 - **PUMP_Driver_Arduino**:
   - `xxx`: Files related to the Arduino driver for the pump.
 - **PC_Controller**:
-  - `camera`: Camera control and integration files.
-  - `mp285`: MP285 motion controller files.
-  - `xxx`: Additional software components.
+  - `PicturecontrolDlg.cpp`: UI and main function.
+  - `camera.cpp`: camera driver and thread.
+  - `mp285.cpp`: MP285 position and speed control mode.
+  - `mhi.cpp`: .
+  - `injector_pump.cpp`: injector and pump driver.
+  - `mx7600_utils.cpp`: mx7600 utils.
+  - `mx7600.cpp`: mx7600 driver.
+  - `SerialPort.cpp`: serial base. 
+  - `tip_detection.cpp`: injection pipette tip detection algorithm.
+  - `xy_stage_proscan.cpp`: XY stage of microscope driver. 
 
 ### Docs
 - `Todo`: Documentation and future work.
@@ -53,7 +60,7 @@ This project involves the development of a software application using Visual Stu
 ### Running the Application
 1. Ensure all hardware components are connected and powered on.
 2. Launch the application from Visual Studio or by running the executable.
-3. Follow the on-screen instructions to operate the system.
+3. Follow the on-screen instructions on the ui to operate the system.
 
 ## Usage
 Detailed instructions for using the application will be provided here. This may include steps for calibrating the hardware, capturing images, and controlling the motion controllers.
