@@ -1,7 +1,7 @@
 # Injection Project
 
 ## Overview
-This project involves the development of a software application using Visual Studio 2013 and MFC. The application integrates various hardware components, including a camera, microscope, and motion controllers, to create a comprehensive control system.
+This project entails the development of a software application utilizing Visual Studio 2013 and MFC. The application integrates various hardware components, including a camera, microscope, and motion controllers, to establish a comprehensive control system.
 
 ## Development Environment
 - **IDE**: Visual Studio 2013
@@ -9,7 +9,7 @@ This project involves the development of a software application using Visual Stu
 
 ## Dependencies
 - **OpenCV2**: For image processing and computer vision tasks.
-- **Model 826**: For MP285 and MX7600 motion controller management.
+- **Model 826**: For managing MP285 and MX7600 motion controllers.
 - **Pylon**: For camera integration and control.
 - **OLYMPUS.sdk**: For microscope settings and control. *Note: Due to licensing issues, this SDK and its source code are not included in this repository. Please contact OLYMPUS directly to obtain the SDK.*
 
@@ -24,15 +24,15 @@ This project involves the development of a software application using Visual Stu
   - `xxx`: Files related to the Arduino driver for the pump.
 - **PC_Controller**:
   - `PicturecontrolDlg.cpp`: UI and main function.
-  - `camera.cpp`: camera driver and thread.
-  - `mp285.cpp`: MP285 position and speed control mode.
-  - `mhi.cpp`: .
-  - `injector_pump.cpp`: injector and pump driver.
-  - `mx7600_utils.cpp`: mx7600 utils.
-  - `mx7600.cpp`: mx7600 driver.
-  - `SerialPort.cpp`: serial base. 
-  - `tip_detection.cpp`: injection pipette tip detection algorithm.
-  - `xy_stage_proscan.cpp`: XY stage of microscope driver. 
+  - `camera.cpp`: Camera driver and thread.
+  - `mp285.cpp`: MP285 position and speed control.
+  - `mhi.cpp`: MHI driver.
+  - `injector_pump.cpp`: Injector and pump driver.
+  - `mx7600_utils.cpp`: MX7600 utilities.
+  - `mx7600.cpp`: MX7600 driver.
+  - `SerialPort.cpp`: Serial communication base.
+  - `tip_detection.cpp`: Injection pipette tip detection algorithm.
+  - `xy_stage_proscan.cpp`: XY stage microscope driver.
 
 ### Docs
 - `Todo`: Documentation and future work.
@@ -40,12 +40,11 @@ This project involves the development of a software application using Visual Stu
 ## Installation and Setup
 
 ### Prerequisites
-- Install Visual Studio 2013.
-- Ensure you have the following dependencies installed:
-  - OpenCV2
-  - Model 826 drivers and libraries
-  - Pylon SDK
-  - OLYMPUS.sdk (contact OLYMPUS for access)
+- Visual Studio 2013
+- OpenCV2
+- Model 826 drivers and libraries
+- Pylon SDK
+- OLYMPUS.sdk (contact OLYMPUS for access)
 
 ### Building the Project
 1. Clone the repository:
@@ -60,7 +59,7 @@ This project involves the development of a software application using Visual Stu
 ### Running the Application
 1. Ensure all hardware components are connected and powered on.
 2. Launch the application from Visual Studio or by running the executable.
-3. Follow the on-screen instructions on the ui to operate the system.
+3. Follow the on-screen instructions to operate the system.
 
 ## Usage
 Detailed instructions for using the application will be provided here. This may include steps for calibrating the hardware, capturing images, and controlling the motion controllers.
@@ -74,4 +73,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 - [OLYMPUS](https://www.olympus-lifescience.com/en/)
 
 ## Contact
-For any inquiries, please submit issues.
+For any inquiries, please submit issues on the GitHub repository.
