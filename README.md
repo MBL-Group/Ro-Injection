@@ -16,8 +16,8 @@ This project entails the development of a software application utilizing Visual 
 ## Directory Structure
 
 ### Hardware
-- `xxx.sch`: Schematic files.
-- `xxx.jpg`: Images of the hardware setup.
+- `Schematic.pdf`: Schematic files.
+- `System setup.jpg`: Images of the hardware setup.
 
 ### Software
 - **PUMP_Driver_Arduino**:
