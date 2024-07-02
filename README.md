@@ -1,7 +1,7 @@
 # Injection Project
 
 ## Overview
-This project entails the development of a software application utilizing Visual Studio 2013 and MFC. The application integrates various hardware components, including a camera, microscope, and motion controllers, to establish a comprehensive control system.
+This project entails the development of a software application utilizing Visual Studio 2013 and MFC. The application integrates various hardware components, including a camera, microscope, motion stage, injector, pump and two micro manipulators, to establish a comprehensive control system.
 
 <p align="center">
   <img src="Docs/images/Worm injection_GUI.jpg" alt="UI">
