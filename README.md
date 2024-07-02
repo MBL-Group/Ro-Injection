@@ -3,6 +3,12 @@
 ## Overview
 This project entails the development of a software application utilizing Visual Studio 2013 and MFC. The application integrates various hardware components, including a camera, microscope, and motion controllers, to establish a comprehensive control system.
 
+<p align="center">
+  <img src="Docs/images/Worm injection_GUI.jpg" alt="UI">
+  <br>
+  <em>UI of injection</em>
+</p>
+
 ## Development Environment
 - **IDE**: Visual Studio 2013
 - **Framework**: MFC (Microsoft Foundation Class)
