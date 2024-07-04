@@ -62,7 +62,7 @@ This project entails the development of a software application utilizing Visual 
 ### Building the Project
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/projectname.git
+    git clone https://github.com/MBL-Group/Ro-Injection.git
     cd Ro-Injection
     ```
 2. Open the solution file in Visual Studio 2013.
