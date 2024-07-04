@@ -35,7 +35,7 @@ This project entails the development of a software application utilizing Visual 
 ### Software
 - **PUMP_Driver_Arduino**:
   - `PUMP_ARDUINO.ino`: Files related to the Arduino driver for the pump.
-- **PC_Controller**:
+- **Ro-Injection**:
   - `PicturecontrolDlg.cpp`: UI and main function.
   - `camera.cpp`: Camera driver and thread.
   - `mp285.cpp`: MP285 position and speed control.
