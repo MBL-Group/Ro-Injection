@@ -9,6 +9,7 @@ This project entails the development of a software application utilizing Visual 
   <em>UI of injection</em>
 </p>
 
+
 ## Development Environment
 - **IDE**: Visual Studio 2013
 - **Framework**: MFC (Microsoft Foundation Class)
@@ -25,9 +26,15 @@ This project entails the development of a software application utilizing Visual 
 - `Schematic.pdf`: Schematic files.
 - `System setup.jpg`: Images of the hardware setup.
 
+<p align="center">
+  <img src="Hardware\System setup.jpg" alt="System Setup">
+  <br>
+  <em>System Setup</em>
+</p>
+
 ### Software
 - **PUMP_Driver_Arduino**:
-  - `xxx`: Files related to the Arduino driver for the pump.
+  - `PUMP_ARDUINO.ino`: Files related to the Arduino driver for the pump.
 - **PC_Controller**:
   - `PicturecontrolDlg.cpp`: UI and main function.
   - `camera.cpp`: Camera driver and thread.
@@ -41,7 +48,7 @@ This project entails the development of a software application utilizing Visual 
   - `xy_stage_proscan.cpp`: XY stage microscope driver.
 
 ### Docs
-- `Todo`: Documentation and future work.
+- `docs`: System setup and UI images.
 
 ## Installation and Setup
 
@@ -50,13 +57,13 @@ This project entails the development of a software application utilizing Visual 
 - OpenCV2
 - Model 826 drivers and libraries
 - Pylon SDK
-- OLYMPUS.sdk (contact OLYMPUS for access)
+- OLYMPUS SDK (please contact OLYMPUS for access)
 
 ### Building the Project
 1. Clone the repository:
     ```sh
     git clone https://github.com/yourusername/projectname.git
-    cd projectname
+    cd Ro-Injection
     ```
 2. Open the solution file in Visual Studio 2013.
 3. Configure the dependencies in your project settings.
@@ -75,8 +82,10 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Acknowledgements
 - [OpenCV](https://opencv.org/)
-- [Basler Pylon](https://www.baslerweb.com/en/products/software/basler-pylon-camera-software-suite/)
+- [Basler Pylon](https://www.baslerweb.com/en/software/pylon/)
 - [OLYMPUS](https://www.olympus-lifescience.com/en/)
+- [Model826](https://www.sensoray.com/PCI_Express_digital_output_826.htm)
+- [MP285](https://www.sutter.com/MICROMANIPULATION/mp285.html)
 
 ## Contact
 For any inquiries, please submit issues on the GitHub repository.
