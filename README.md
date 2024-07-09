@@ -54,7 +54,7 @@ This project entails the development of a software application utilizing Visual 
 
 ### Prerequisites
 - Visual Studio 2013
-- OpenCV2
+- OpenCV3
 - Model 826 drivers and libraries
 - Pylon SDK
 - OLYMPUS SDK (please contact OLYMPUS for access)
