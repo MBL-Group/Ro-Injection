@@ -4818,26 +4818,6 @@ void CPicturecontrolDlg::OnBnClickedLarvaedec()
 	imgpro_num++;
 }
 
-
-
-/*void CPicturecontrolDlg::OnBnClickedButtoncloall2()
- * {
- * // TODO: Add your control notification handler code here
- * }*/
-//void CPicturecontrolDlg::OnEnChangeEditspeed()
-//{
-	/*
-	 * TODO:  If this is a RICHEDIT control, the control will not
-	 * send this notification unless you override the CDialogEx::OnInitDialog()
-	 * function and call CRichEditCtrl().SetEventMask()
-	 * with the ENM_CHANGE flag ORed into the mask.
-	 * TODO:  Add your control notification handler code here
-	 */
-//}
-
-
-
-
 void CPicturecontrolDlg::OnBnClickedButtonbi()
 {
 	// TODO: Add your control notification handler code here

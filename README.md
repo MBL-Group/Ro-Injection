@@ -74,9 +74,6 @@ This project entails the development of a software application utilizing Visual 
 2. Launch the application from Visual Studio or by running the executable.
 3. Follow the on-screen instructions to operate the system.
 
-## Usage
-Detailed instructions for using the application will be provided here. This may include steps for calibrating the hardware, capturing images, and controlling the motion controllers.
-
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
