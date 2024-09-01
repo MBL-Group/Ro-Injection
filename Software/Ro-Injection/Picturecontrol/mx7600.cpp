@@ -95,10 +95,10 @@ void MX7600::set_x_speed(double speed)
 		0		  /* //DIO 38 is in second 24-bit mask (DIOs 24-47). */
 	};
 	if (speed > 0)
-		S826_DioOutputWrite(15, dios, S826_BITCLR);
-	else
 		S826_DioOutputWrite(15, dios, S826_BITSET);
-	SetDacOutput(15, 0, S826_DAC_SPAN_0_10, speed);
+	else
+		S826_DioOutputWrite(15, dios, S826_BITCLR);
+	SetDacOutput(15, 0, S826_DAC_SPAN_0_10, abs(speed));
 }
 
 void MX7600::set_y_speed(double speed)
@@ -109,10 +109,10 @@ void MX7600::set_y_speed(double speed)
 		0		  /* //DIO 38 is in second 24-bit mask (DIOs 24-47). */
 	};
 	if (speed > 0)
-		S826_DioOutputWrite(15, dios, S826_BITCLR);
-	else
 		S826_DioOutputWrite(15, dios, S826_BITSET);
-	SetDacOutput(15, 2, S826_DAC_SPAN_0_10, speed);
+	else
+		S826_DioOutputWrite(15, dios, S826_BITCLR);
+	SetDacOutput(15, 2, S826_DAC_SPAN_0_10, abs(speed));
 }
 
 void MX7600::set_z_speed(double speed)
@@ -123,10 +123,10 @@ void MX7600::set_z_speed(double speed)
 		0		  /* //DIO 38 is in second 24-bit mask (DIOs 24-47). */
 	};
 	if (speed > 0)
-		S826_DioOutputWrite(15, dios, S826_BITCLR);
-	else
 		S826_DioOutputWrite(15, dios, S826_BITSET);
-	SetDacOutput(15, 1, S826_DAC_SPAN_0_10, speed);
+	else
+		S826_DioOutputWrite(15, dios, S826_BITCLR);
+	SetDacOutput(15, 1, S826_DAC_SPAN_0_10, abs(speed));
 }
 
 void MX7600::set_t_speed(double speed)
@@ -137,10 +137,10 @@ void MX7600::set_t_speed(double speed)
 		0		  /* //DIO 38 is in second 24-bit mask (DIOs 24-47). */
 	};
 	if (speed > 0)
-		S826_DioOutputWrite(15, dios, S826_BITCLR);
-	else
 		S826_DioOutputWrite(15, dios, S826_BITSET);
-	SetDacOutput(15, 3, S826_DAC_SPAN_0_10, speed);
+	else
+		S826_DioOutputWrite(15, dios, S826_BITCLR);
+	SetDacOutput(15, 3, S826_DAC_SPAN_0_10, abs(speed));
 }
 
 void MX7600::stop_all()
